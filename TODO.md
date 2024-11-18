@@ -3,9 +3,11 @@
 Possible tasks:
 - Markdown: *Italic* and **bold**
 - git
+- create a dictionary and accumulate words or letters
+  - .trim()
+  - .get to eliminate if and else from code
 - python environments
 - simple script for opening a file and reading all lines
-- create a dictionary and accumulate words or letters
 
 
 
