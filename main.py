@@ -1,16 +1,12 @@
 file = open('data/dom-casmurro.txt', mode='r+', encoding='utf-8')
 
-characters = {}
+characters_dict = {}
 
 for line in file:
-    lower_line = line.lower().replace('\n', '').replace(' ', '')
+    lower_line = line.lower().strip()
     line_characters = list(lower_line)
     for character in line_characters:
-        if character not in characters.keys():
-            characters[character] = 1
+        n = characters_dict.get(character, 0) + 1
+        characters_dict[character] = n
 
-        else:
-            characters[character] += 1
-
-print(characters)
-
+print(characters_dict)
