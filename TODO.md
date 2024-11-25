@@ -9,5 +9,6 @@ Possible tasks:
 - python environments
 - simple script for opening a file and reading all lines
 
-
-
+- Add main function (OK)
+- Unicode statistics function param= file (and test the function)
+- pytest to test the Unicode function
