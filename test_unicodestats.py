@@ -1,4 +1,5 @@
-from unicodestats import unicodestats_characters
+from unicodestats_code import unicodestats_characters
+
 
 def test_valid_file(tmp_path):
     file_path = tmp_path / "testfile.txt"
